@@ -21,18 +21,18 @@ p1.insertAdjacentElement('afterend', p);
 p.style.textEmphasis='sesame green';
 // 練習4-3 写真表作成プログラム
 let p2=document.querySelector('div#phototable');
-let p = document.createElement('p');
+let pa = document.createElement('p');
 let img = document.createElement('img');
 img.setAttribute('src','taro.png');
-p.insertAdjacentElement('beforeend', img);
-p2.insertAdjacentElement('beforeend', p);
+pa.insertAdjacentElement('beforeend', img);
+p2.insertAdjacentElement('beforeend', pa);
 
 
 
 
 let pp = document.createElement('p');
 let img1 = document.createElement('img');
-img.setAttribute('src','jiro.png');
+img1.setAttribute('src','jiro.png');
 pp.insertAdjacentElement('beforeend', img1);
 p2.insertAdjacentElement('beforeend', pp);
 
@@ -40,7 +40,7 @@ p2.insertAdjacentElement('beforeend', pp);
  
 let ppp = document.createElement('p');
 let img2 = document.createElement('img');
-img.setAttribute('src','hanako.png');
+img2.setAttribute('src','hanako.png');
 ppp.insertAdjacentElement('beforeend', img2);
 p2.insertAdjacentElement('beforeend', ppp);
 
