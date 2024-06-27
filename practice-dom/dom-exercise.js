@@ -16,7 +16,7 @@ let data = [
 // 練習4-2 メッセージ追加プログラム
 let p1=document.querySelector('h2#ex42');
 let p = document.createElement('p');
-p.textContent = 写真表と年の緯度軽度のページです;
+p.textContent = '写真表と年の緯度軽度のページです';
 p1.insertAdjacentElement('afterend', p); 
 p.style.textEmphasis='sesame green';
 // 練習4-3 写真表作成プログラム
@@ -26,6 +26,23 @@ let img = document.createElement('img');
 img.setAttribute('src','taro.png');
 p.insertAdjacentElement('beforeend', img);
 p2.insertAdjacentElement('beforeend', p);
+
+
+
+
+let pp = document.createElement('p');
+let img1 = document.createElement('img');
+img.setAttribute('src','jiro.png');
+pp.insertAdjacentElement('beforeend', img1);
+p2.insertAdjacentElement('beforeend', pp);
+
+
+ 
+let ppp = document.createElement('p');
+let img2 = document.createElement('img');
+img.setAttribute('src','hanako.png');
+ppp.insertAdjacentElement('beforeend', img2);
+p2.insertAdjacentElement('beforeend', ppp);
 
 // 練習4-4 箇条書き削除プログラム
 
