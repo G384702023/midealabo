@@ -56,3 +56,10 @@ console.log(data.main.humidity);
 console.log(data.wind.speed);
 console.log(data.wind.deg);
 console.log(data.name);
+
+let p1 = document.querySelector('div#result');
+let li = document.createElement("li");
+li.textContent = "緯度:"+data.coord.lon+" 経度:"+data.coord.lat+" 天気"+data.weather[0].description
+ +" 最低気温:"+data.main.temp_min+" 最高気温"+data.main.temp_max+" 湿度:"+data.main.humidity
+ +" 風速:"+data.wind.speed+" 風向:"+data.wind.deg+" 都市名"+data.name;
+p1.insertAdjacentElement('beforeend', li);
