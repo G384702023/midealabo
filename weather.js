@@ -14,7 +14,7 @@ b.addEventListener('click', sendRequest);
 
 function sendRequest() {
 
- let w =document.querySelectorAll('ul#list > li');
+ let w =document.querySelectorAll('p1#list > li');
  for(let n of w){n.remove();}
  let w2 =document.querySelector('ul#location');
  let s =document.querySelector('select#city');
